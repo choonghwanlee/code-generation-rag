@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 import voyageai
 
 load_dotenv()
-
+ 
 pc = Pinecone(api_key = os.getenv("PINECONE_API_KEY"))
 
 index = pc.Index('arxiv-code-voyage')

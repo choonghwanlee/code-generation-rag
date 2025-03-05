@@ -11,7 +11,7 @@ import numpy as np
 from datasets import load_dataset
 
 load_dotenv()
-
+ 
 # Use st.cache_resource for loading resources that should persist across sessions
 @st.cache_resource
 def load_pinecone_data():

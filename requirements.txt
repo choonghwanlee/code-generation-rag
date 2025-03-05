@@ -86,4 +86,4 @@ tzdata==2025.1
 urllib3==2.3.0
 voyageai==0.3.2
 xxhash==3.5.0
-yarl==1.18.3
+yarl==1.18.3 
